@@ -1,0 +1,13 @@
+<?php
+class random{
+    private $valeur;
+
+    public function __construct(){
+        $this->valeur = rand(1,6);
+    }
+
+    public function getValeur():int{
+        return $this->valeur;
+    }
+}
+?>
